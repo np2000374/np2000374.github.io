@@ -1,5 +1,6 @@
-My WildCat Studios Portfolio description: >-
+title: My WildCat Studios Portfolio 
+description: >-
          This is my portfolio showcasing my projects and skills.
 baseurl: "" 
 url: "https://np2000374.github.io" 
-theme:jekyll-theme-architect
+theme: jekyll-theme-architect
