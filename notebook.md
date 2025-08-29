@@ -11,8 +11,8 @@
 ## Flutter Notes
 
 ###  What is Flutter?
-- Definition:
-- Why is it useful?
+- Definition: A framework made by Google for building apps that work on web, Andriod, IOS with one codebase
+- Why is it useful? Uses the dart program
 
 ---
 
@@ -20,25 +20,28 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |                                                  |                                           |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  |                                                  |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
-| Container        |                                                  |                                           |
-| Text             |                                                  |                                           |
-| Image.network    |                                                  |                                           |
-
+| Widget           | Basic buliding block of a flutter app. everything is a widget                                                |                                           |
+| MaterialApp      | The root of the app. Sets up routes and themes                                                  |                                           |
+| Scaffold         |  Provudes basic visual layout like a header,body,floating button                                                |                                           |
+| StatelessWidget  | A widget that doesnt save                                                  |                                           |
+| StatefulWidget   | A widget that can change over time                                                  |                                           |
+| Navigator        | manage screen transitions                                                 |                                           |
+| AppBar           | Top navigation bar                                                  |                                           |
+| Column           |  vertical lay out                                |                                           |
+| Row              |  Horzatial lay out                               |                                           |
+| Container        |  Wraps content with padding, margin, or color                                                |                                           |
+| Text             |  Displays text                                   |                                           |
+| Image.network    | Displays images from url                         |                                           |
+| Padding          | Adds space around the widget
+|Center            | Centers its child
+|Named routes      | Predefined paths to navigate between screens
+|Main              | The function that runs the app
 ---
 
 ### Layout and Design Widgets
-- How do you center a widget?
-- How do you align something to the left or right?
-- What widget adds space around content?
+- How do you center a widget? Center
+- How do you align something to the left or right? Column
+- What widget adds space around content? Padding
 
 
 
