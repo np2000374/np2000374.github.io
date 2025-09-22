@@ -76,23 +76,23 @@ in home.dart onPressed: () => Navigator.pushNamed(context, '/background')  child
 |      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
 in home.adrt class HomeScreen extends StatelessWidget {
 |      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
-
+class BackgroundScreen extends StatefulWidget 
 |      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
-
+in home.dart Navigator.pushNamed(context, '/background')
 |      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
 in showcase.dart  return Padding(padding: const EdgeInsets.all(4.0) child: Image.network(url, width: 100, height: 100, fit: BoxFit.cover),    );
 |      | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
-
+in background.dart  mainAxisAlignment: MainAxisAlignment.center, children:
 |      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
 in showcase.dart Wrap(alignment: WrapAlignment.center, children: puppyUrls.map((url) => puppyImage(url)).toList()),
 |      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-
+in home.dart @override
 |      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
 in home.dart Widget build(BuildContext context)   return Scaffold(    body: Center(  child: Column(
 |      | Required in every widget class to describe what to show. | `build` |  |  |
-
+in AltDesignScreen.dart build
 |      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-
+in home.dart (BuildContext context) 
 |      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
 in main.dart  const MyPortfolioApp ({super.key});
 |      | A keyword that means the value won't change and is set once. | `const` |  |  |
