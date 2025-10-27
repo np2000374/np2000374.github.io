@@ -114,7 +114,7 @@ in main.dart  const MyPortfolioApp ({super.key});
 
 |------|------------|--------------------------|-------------------|-------------|
 
-|      | A named container used to store a value that may change. | `var x = 5;` |  |  |
+|     | A named container used to store a value that may change. | `var x = 5;` |  |  |
 
 |      | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
 
@@ -155,7 +155,16 @@ in main.dart  const MyPortfolioApp ({super.key});
 |      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
 
 |      | A function that does not return a value. | `void printMessage() {}` |  |  |
-
+| Scanner | Creates a scanner object to take input from user | Scanner in new Scanner(system.in);  |  |  |
+| import scanner | Gives acess to scanner class, required at top | import java.util.Scanner |  |  |
+| prinit line statement | prints what's in the parenthesis | System.out.printIn(" ")  |  |  |
+| print statement | prints the content in the parenthesis | System.out.print(" ") |  |  |
+| input nextLine | reads in a String from the user  | input.nextLine(); |  |  |
+| input nextInt|reads in a int from the user | input.nextInt();  |  |  |
+| input nextDouble | reads in a double (decimal) from user  | input.nextDouble();  |  |  |
+| input nextBoolean | reads in a boolean (true/false) from the user  | input.nextBoolean();  |  |  |
+| Arithmetic operators |- * / % (modulus, returns the remainder from dividing)  |  |  |  |
+| compound operators(applies the result to the variable) |+= -= *= /= %= ++ (adds 1)  |  |  |  |
 
 
 
