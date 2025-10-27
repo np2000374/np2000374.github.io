@@ -50,10 +50,9 @@
 ## Flutter Definitions
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
-
 |------|----------------------------|----------------|-------------------|-------------|
 |
-|      | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
+| | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
 main.dart void main() => runApp(MyPortfolioApp());
 |      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
    main.dart return MaterialApp( debugShowCheckedModeBanner: false,  title:'TSA Portfolio', theme: ThemeData(
@@ -114,47 +113,47 @@ in main.dart  const MyPortfolioApp ({super.key});
 
 |------|------------|--------------------------|-------------------|-------------|
 
-|     | A named container used to store a value that may change. | `var x = 5;` |  |  |
+|Variable     | A named container used to store a value that may change. | `var x = 5;` |  |  |
 
-|      | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
+|Constant    | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
 
-|      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
+|data Type      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
 
-|      | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
+|String      | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
 
-|      | Whole number values. | `int age = 16;` |  |  |
+| Integer     | Whole number values. | `int age = 16;` |  |  |
 
-|      | Number values with decimals. | `double age = 16.2;` |  |  |
+|Double      | Number values with decimals. | `double age = 16.2;` |  |  |
 
-|      | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
+|Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
 
-|      | A collection of values in a specific order. | `List<String> names = [];` |  |  |
+|List      | A collection of values in a specific order. | `List<String> names = [];` |  |  |
 
-|      | A special value that means “nothing.” | `String? name = null;` |  |  |
+|Null      | A special value that means “nothing.” | `String? name = null;` |  |  |
 
-|      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
+|Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
 
-|      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
+|Parameter      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
 
-|      | The result a function gives back. | `return total;` |  |  |
+|Return      | The result a function gives back. | `return total;` |  |  |
 
-|      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
+|Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
 
-|      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
+|Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
 
-|      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|Object      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
 
-|      | A variable that belongs to a class/object. | `String name;` |  |  |
+|Property      | A variable that belongs to a class/object. | `String name;` |  |  |
 
-|      | A function that belongs to a class. | `void bark() {}` |  |  |
+|Method    | A function that belongs to a class. | `void bark() {}` |  |  |
 
-|      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+|Constructer     | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
 
-|      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+|Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
 
-|      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+|Override      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
 
-|      | A function that does not return a value. | `void printMessage() {}` |  |  |
+|Voide      | A function that does not return a value. | `void printMessage() {}` |  |  |
 | Scanner | Creates a scanner object to take input from user | Scanner in new Scanner(system.in);  |  |  |
 | import scanner | Gives acess to scanner class, required at top | import java.util.Scanner |  |  |
 | prinit line statement | prints what's in the parenthesis | System.out.printIn(" ")  |  |  |
