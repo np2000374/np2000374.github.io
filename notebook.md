@@ -164,10 +164,11 @@ in main.dart  const MyPortfolioApp ({super.key});
 | input nextBoolean | reads in a boolean (true/false) from the user  | input.nextBoolean();  |  |  |
 | Arithmetic operators |- * / % (modulus, returns the remainder from dividing)  |  |  |  |
 | compound operators(applies the result to the variable) |+= -= *= /= %= ++ (adds 1)  |  |  |  |
-
-
-
-
+|maximum int | the max ualue an int can hold: 214748267 | Intger.MAX_VALUE | | |
+|Minimum int | the minium vaule an int can hold: -2147483648 | Integer.MIN_VALUE | | |
+|interger overflow | Inter.MAX_VALUE + 1 == MIN_VALUE, it wraps around
+|interger underflow| Inter.MIN_VALUE + 1 == MAX_VALUE, it wraps around
+|round-off error | an approx. of the actual value, result is rounded to the nearest value that fits withing avaliable bits
 
 
 
