@@ -52,7 +52,7 @@
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
 |
-| | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
+| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
 main.dart void main() => runApp(MyPortfolioApp());
 |      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
    main.dart return MaterialApp( debugShowCheckedModeBanner: false,  title:'TSA Portfolio', theme: ThemeData(
@@ -166,13 +166,12 @@ in main.dart  const MyPortfolioApp ({super.key});
 | compound operators(applies the result to the variable) |+= -= *= /= %= ++ (adds 1)  |  |  |  |
 |maximum int | the max ualue an int can hold: 214748267 | Intger.MAX_VALUE | | |
 |Minimum int | the minium vaule an int can hold: -2147483648 | Integer.MIN_VALUE | | |
-|interger overflow | Inter.MAX_VALUE + 1 == MIN_VALUE, it wraps around
-|interger underflow| Inter.MIN_VALUE + 1 == MAX_VALUE, it wraps around
-|round-off error | an approx. of the actual value, result is rounded to the nearest value that fits withing avaliable bits
-
-
-
-
+|interger overflow | Inter.MAX_VALUE + 1 == MIN_VALUE, it wraps around | | |
+|interger underflow| Inter.MIN_VALUE + 1 == MAX_VALUE, it wraps around | | |
+|round-off error | an approx. of the actual value, result is rounded to the nearest value that fits withing avaliable bits |  |  |
+|overloded method/function or constructor | Uses the same name, but has different parameters | Pizza (), Pizza (String toppings) 2 constructor, first is a default cheese puzza, 2nd has 1 topping | | |
+| dot notation | Methods are called on objects using a dot after the object name | object.method(value); | | |
+|Concatenate | To combine Strings with other Strings and/or variables | String greeting = "hello" + "My name is "n + name "."; | | |
 
 
 
