@@ -10,4 +10,4 @@ Click here to learn more → [About Me](about.md)
 [About Me](about.md) creates a clickable link to your About page.
 ## Notebook
 Click here to see more → [CS2 Notebook](cs2-notebook.md)
-[CS2 Notebook](cs2-notebook.md) .
+.
